@@ -17,9 +17,15 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "axios": "^1.6.0",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "axios": "^1.18.0",
     "dotenv": "^17.2.3"
+  },
+  "overrides": {
+    "raw-body": "4.0.0",
+    "@modelcontextprotocol/sdk": {
+      "zod": "https://npm.aikido.io/2846312f53e93406fff/zod@3.25.76-aikido.1"
+    }
   },
   "devDependencies": {
     "@types/node": "^20.19.19",
