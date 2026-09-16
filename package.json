@@ -17,9 +17,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "axios": "^1.6.0",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "axios": "^1.18.0",
     "dotenv": "^17.2.3"
+  },
+  "overrides": {
+    "proxy-addr@<2.0.8": "2.0.8",
+    "raw-body@<4.0.0": "4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.19.19",
